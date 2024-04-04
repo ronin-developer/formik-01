@@ -159,7 +159,7 @@ function FormComponent() {
                     accept='image/jpeg, image/png'
                     onChange={handleImageChange}
                     onBlur={formik.handleBlur}
-                    className='rounded-l-lg w-80'
+                    className='rounded-l-lgs'
                 />
                 {formik.touched.image && formik.errors.image ? (
                     <div className='text-red-500'>{formik.errors.image}</div>
